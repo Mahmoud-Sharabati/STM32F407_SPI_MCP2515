@@ -31,13 +31,13 @@ git clone https://github.com/[YOUR_USERNAME]/mpc2515-stm32f407vg-driver.git
    | PC5	| PA0	  |
 
  ### Use CAN SPI Driver instruction
-1. Initialize the CAN SPI driver using: CANSPI_Initialize(uint8_t BitRate) |
+1. Initialize the CAN SPI driver using: CANSPI_Initialize(uint8_t BitRate)
        Two Bit Rate options:
    | 500Kbps	| 250Kbps  |
    |------------|--------- |
    | _500KBPS	| _250KBPS |
        
-2. Enable/Disable RX pins Interrupt (on RX0B and RX1B pins)\
+2. Enable/Disable RX pins Interrupt (on RX0B and RX1B pins)
 
 	Two available options:
    | Enable Interrupts on RX0B and RX1B pins	| Disable Interrupts on RX0B and RX1B pins  |
