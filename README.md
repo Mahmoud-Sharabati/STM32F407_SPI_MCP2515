@@ -25,7 +25,7 @@ git clone [here](https://github.com/Mahmoud-Sharabati/STM32F407_SPI_MCP2515.git)
 																		
 	*This driver use PC9 pin as RX0B interrupt pin (Named: RX0B_Interrupt)*
 
-   This Board has an optional LED and Buzzer with the following pins:_
+2. This Board has an optional LED and Buzzer with the following pins:_
    | LED	| Buzzer  |
    |------------|---------|
    | PC5	| PA0	  |
