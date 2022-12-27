@@ -46,11 +46,11 @@ git clone https://github.com/[YOUR_USERNAME]/mpc2515-stm32f407vg-driver.git
 _NOTE: When using the RX interrupts, the interrupt flag MUST be cleared by software using CANSPI_RXB0_CLR Function_
  
 3. Use Transmission and Receive functions
-Transmission Function
-`CAN_AddTxMessage(CAN_HeaderTypeDef *tempCanMsg)`.
+	Transmission Function
+	`CAN_AddTxMessage(CAN_HeaderTypeDef *tempCanMsg)`.
 
-Receive Function
-`CAN_GetRxMessage(CAN_HeaderTypeDef *tempCanMsg)`.		
+	Receive Function
+	`CAN_GetRxMessage(CAN_HeaderTypeDef *tempCanMsg)`.		
 
 ## Credits
 This driver is based on the work of Daniel Rossi, whose original driver can be found here.
