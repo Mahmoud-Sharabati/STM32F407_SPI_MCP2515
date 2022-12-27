@@ -48,6 +48,7 @@ _NOTE: When using the RX interrupts, the interrupt flag MUST be cleared by softw
 3. Use Transmission and Receive functions
 Transmission Function
 `CAN_AddTxMessage(CAN_HeaderTypeDef *tempCanMsg)`.
+
 Receive Function
 `CAN_GetRxMessage(CAN_HeaderTypeDef *tempCanMsg)`.		
 
