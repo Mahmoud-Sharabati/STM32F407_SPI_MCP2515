@@ -6,12 +6,12 @@
 * The STM32CubeMX software, available [here](https://www.st.com/en/development-tools/stm32cubemx.html).
 
 ## Installation
-* 1. Clone the repository:
+1. Clone the repository:
 git clone https://github.com/[YOUR_USERNAME]/mpc2515-stm32f407vg-driver.git
-* 2. Import the project into STM32CubeMX by selecting File > Import > C/C++ > Existing Code as Makefile Project.
-* 3. Configure the project in STM32CubeMX according to your hardware setup.
-* 4. Generate the code and open the project in your preferred development environment.
-* 5. Build and upload the code to your device.
+2. Import the project into STM32CubeMX by selecting File > Import > C/C++ > Existing Code as Makefile Project.
+3. Configure the project in STM32CubeMX according to your hardware setup.
+4. Generate the code and open the project in your preferred development environment.
+5. Build and upload the code to your device.
 
 ## Usage
 
