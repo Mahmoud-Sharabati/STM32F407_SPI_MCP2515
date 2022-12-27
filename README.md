@@ -1,11 +1,11 @@
-#This repository contains a driver for the MPC2515 CAN controller, designed to interface with the STM32f407VG microcontroller. The driver is based on the MPC2515 driver by [Daniel Rossi](https://github.com/ProjectoOfficial/STM32/tree/main/STM32_MCP2515).
+# This repository contains a driver for the MPC2515 CAN controller, designed to interface with the STM32f407VG microcontroller. The driver is based on the MPC2515 driver by [Daniel Rossi](https://github.com/ProjectoOfficial/STM32/tree/main/STM32_MCP2515).
 
-##Requirements
+## Requirements
 * A device with an STM32f407VG microcontroller.
 * A device with an MPC2515 CAN controller.
 * The STM32CubeMX software, available [here](https://www.st.com/en/development-tools/stm32cubemx.html).
 
-##Installation
+## Installation
 *1. Clone the repository:
 git clone https://github.com/[YOUR_USERNAME]/mpc2515-stm32f407vg-driver.git
 *2. Import the project into STM32CubeMX by selecting File > Import > C/C++ > Existing Code as Makefile Project.
@@ -13,9 +13,9 @@ git clone https://github.com/[YOUR_USERNAME]/mpc2515-stm32f407vg-driver.git
 *4. Generate the code and open the project in your preferred development environment.
 *5. Build and upload the code to your device.
 
-##Usage
+## Usage
 
-###Before using SPI CAN Driver
+### Before using SPI CAN Driver
 *1. Modify the Hardware Configuration and Pins using CubeMX software  		|
     This driver use SPI3 with the following pins:								|
  | --------------------------------------------------------------------------	|
@@ -30,7 +30,7 @@ git clone https://github.com/[YOUR_USERNAME]/mpc2515-stm32f407vg-driver.git
  | 				| PC5 -> LED | PA0 -> Buzzer | 								|
  | 			 	------------------------------								|
 
- ###Use CAN SPI Driver instruction
+ ### Use CAN SPI Driver instruction
    *1. Initialize the CAN SPI driver using: CANSPI_Initialize(uint8_t BitRate) |
        Two Bit Rate options:
        *500Kbps -> _500KBPS
@@ -52,8 +52,8 @@ git clone https://github.com/[YOUR_USERNAME]/mpc2515-stm32f407vg-driver.git
  * |   CAN_GetRxMessage(CAN_HeaderTypeDef *tempCanMsg)		
 You can then use the mpc2515_send() function to transmit data over the CAN bus, and the mpc2515_receive() function to receive data.
 
-##Credits
+## Credits
 This driver is based on the work of Daniel Rossi, whose original driver can be found here.
 
-##License
+## License
 This driver is licensed under the MIT License. See the LICENSE file for details.
