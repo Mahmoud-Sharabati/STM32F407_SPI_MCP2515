@@ -31,7 +31,8 @@ git clone https://github.com/[YOUR_USERNAME]/mpc2515-stm32f407vg-driver.git
    | PC5	| PA0	  |
 
  ### Use CAN SPI Driver instruction
-1. Initialize the CAN SPI driver using: CANSPI_Initialize(uint8_t BitRate)
+1. Initialize the CAN SPI driver using: CANSPI_Initialize(uint8_t BitRate):
+ 
        Two Bit Rate options:
    | 500Kbps	| 250Kbps  |
    |------------|--------- |
