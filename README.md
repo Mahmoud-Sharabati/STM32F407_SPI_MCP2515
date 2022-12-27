@@ -24,8 +24,8 @@ git clone https://github.com/[YOUR_USERNAME]/mpc2515-stm32f407vg-driver.git
 
 																		
 This driver use PC9 pin as RX0B interrupt pin (Named: RX0B_Interrupt)[^1].
- | -------------------------------------------------------------------------- |
- |
+
+
  | This Board has an optional LED and Buzzer with the following pins:			|
  | 				------------------------------								|
  | 				| PC5 -> LED | PA0 -> Buzzer | 								|
