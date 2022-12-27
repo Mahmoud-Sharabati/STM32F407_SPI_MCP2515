@@ -25,11 +25,10 @@ git clone https://github.com/[YOUR_USERNAME]/mpc2515-stm32f407vg-driver.git
 																		
 *This driver use PC9 pin as RX0B interrupt pin (Named: RX0B_Interrupt)*
 
-
- | This Board has an optional LED and Buzzer with the following pins:			|
- | 				------------------------------								|
- | 				| PC5 -> LED | PA0 -> Buzzer | 								|
- | 			 	------------------------------								|
+_This Board has an optional LED and Buzzer with the following pins:_
+ | LED	| Buzzer  |
+ |------|---------|
+ | PC5	| PA0	  |
 
  ### Use CAN SPI Driver instruction
 1. Initialize the CAN SPI driver using: CANSPI_Initialize(uint8_t BitRate) |
