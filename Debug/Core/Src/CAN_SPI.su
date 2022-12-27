@@ -1,0 +1,13 @@
+../Core/Src/CAN_SPI.c:17:6:CANSPI_Sleep	8	static
+../Core/Src/CAN_SPI.c:29:5:CANSPI_Initialize	48	static
+../Core/Src/CAN_SPI.c:146:6:CANSPI_RxInterruptPins	16	static
+../Core/Src/CAN_SPI.c:159:6:CANSPI_RXB0_CLR	8	static
+../Core/Src/CAN_SPI.c:164:9:CAN_GetRxMessage	24	static
+../Core/Src/CAN_SPI.c:212:9:CAN_AddTxMessage	40	static
+../Core/Src/CAN_SPI.c:263:9:CANSPI_messagesInBuffer	16	static
+../Core/Src/CAN_SPI.c:283:9:CANSPI_isBussOff	16	static
+../Core/Src/CAN_SPI.c:298:9:CANSPI_isRxErrorPassive	16	static
+../Core/Src/CAN_SPI.c:313:9:CANSPI_isTxErrorPassive	16	static
+../Core/Src/CAN_SPI.c:328:17:convertReg2ExtendedCANid	32	static
+../Core/Src/CAN_SPI.c:350:17:convertReg2StandardCANid	24	static
+../Core/Src/CAN_SPI.c:363:13:convertCANid2Reg	32	static
