@@ -18,14 +18,10 @@ git clone https://github.com/[YOUR_USERNAME]/mpc2515-stm32f407vg-driver.git
 ### Before using SPI CAN Driver
 1. Modify the Hardware Configuration and Pins using CubeMX software
     This driver use SPI3 with the following pins:
-    | SPI3_CS       | SPI3_SCK      | SPI3_MISO     |SPI3_MOSI   |
-    | ------------- |:-------------:|:-------------:| -----------|
-    | PC7	    | PC10	    | PC11          | PC12	 |
+    | SPI3_CS       | SPI3_SCK    | SPI3_MISO   |SPI3_MOSI   |RX0B_Pin
+    | ------------- |:-----------:|:-----------:|:----------:| -----------|
+    | PC7	    | PC10	  | PC11        | PC12	     |PC9	  |
 
-    
- | ---------------|------------------|-------------------|---------------------	|
- | PC7 -> SPI3_CS | PC10 -> SPI3_SCK | PC11 -> SPI3_MISO |PC12 -> SPI3_MOSI 	|
- | ---------------|------------------|-------------------|--------------------- |
 																		
  | This driver use PC9 pin as RX0B interrupt pin (Named: RX0B_Interrupt)		|
  | -------------------------------------------------------------------------- |
