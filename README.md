@@ -39,19 +39,17 @@ git clone https://github.com/[YOUR_USERNAME]/mpc2515-stm32f407vg-driver.git
        
 2. Enable/Disable RX pins Interrupt (on RX0B and RX1B pins)
         Two available options:
-        *Enable Interrupts on RX0B and RX1B pins  -> _Enable
-        *Disable Interrupts on RX0B and RX1B pins -> _Disable
-        
- * | NOTE: When using the RX interrupts, the interrupt flag MUST be cleared by	|
- * |	   software using CANSPI_RXB0_CLR Function								|
- * | -------------------------------------------------------------------------- |
- * | 3. Use Transmission and Receive functions 									|
- * | > Transmission Function													|
- * |   CAN_AddTxMessage(CAN_HeaderTypeDef *tempCanMsg)							|
- * |																			|
- * | > Receive Function															|
- * |   CAN_GetRxMessage(CAN_HeaderTypeDef *tempCanMsg)		
-You can then use the mpc2515_send() function to transmit data over the CAN bus, and the mpc2515_receive() function to receive data.
+   | Enable Interrupts on RX0B and RX1B pins	| Disable Interrupts on RX0B and RX1B pins  |
+   |--------------------------------------------|-------------------------------------------|
+   | _Enable					| _Disable	  			    |
+
+_NOTE: When using the RX interrupts, the interrupt flag MUST be cleared by software using CANSPI_RXB0_CLR Function_
+ 
+3. Use Transmission and Receive functions
+> Transmission Function
+CAN_AddTxMessage(CAN_HeaderTypeDef *tempCanMsg)
+> Receive Function
+CAN_GetRxMessage(CAN_HeaderTypeDef *tempCanMsg)		
 
 ## Credits
 This driver is based on the work of Daniel Rossi, whose original driver can be found here.
