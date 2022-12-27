@@ -54,7 +54,7 @@ Receive Function:\
 `CAN_GetRxMessage(CAN_HeaderTypeDef *tempCanMsg)`.
 
 ## Credits
-This driver is based on the work of Daniel Rossi, whose original driver can be found [here](https://github.com/ProjectoOfficial/STM32/tree/main/STM32_MCP2515)..
+This driver is based on the work of Daniel Rossi, whose original driver can be found [here](https://github.com/ProjectoOfficial/STM32/tree/main/STM32_MCP2515).
 
 ## License
 This driver is licensed under the MIT License. See the LICENSE file for details.
