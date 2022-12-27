@@ -47,9 +47,9 @@ _NOTE: When using the RX interrupts, the interrupt flag MUST be cleared by softw
  
 3. Use Transmission and Receive functions
 Transmission Function
-<sub> CAN_AddTxMessage(CAN_HeaderTypeDef *tempCanMsg)
+`CAN_AddTxMessage(CAN_HeaderTypeDef *tempCanMsg)`.
 Receive Function
-<sub> CAN_GetRxMessage(CAN_HeaderTypeDef *tempCanMsg)		
+`CAN_GetRxMessage(CAN_HeaderTypeDef *tempCanMsg)`.		
 
 ## Credits
 This driver is based on the work of Daniel Rossi, whose original driver can be found here.
