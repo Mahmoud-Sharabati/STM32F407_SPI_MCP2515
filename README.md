@@ -6,17 +6,17 @@
 * The STM32CubeMX software, available [here](https://www.st.com/en/development-tools/stm32cubemx.html).
 
 ## Installation
-*1. Clone the repository:
+* 1. Clone the repository:
 git clone https://github.com/[YOUR_USERNAME]/mpc2515-stm32f407vg-driver.git
-*2. Import the project into STM32CubeMX by selecting File > Import > C/C++ > Existing Code as Makefile Project.
-*3. Configure the project in STM32CubeMX according to your hardware setup.
-*4. Generate the code and open the project in your preferred development environment.
-*5. Build and upload the code to your device.
+* 2. Import the project into STM32CubeMX by selecting File > Import > C/C++ > Existing Code as Makefile Project.
+* 3. Configure the project in STM32CubeMX according to your hardware setup.
+* 4. Generate the code and open the project in your preferred development environment.
+* 5. Build and upload the code to your device.
 
 ## Usage
 
 ### Before using SPI CAN Driver
-*1. Modify the Hardware Configuration and Pins using CubeMX software  		|
+* 1. Modify the Hardware Configuration and Pins using CubeMX software  		|
     This driver use SPI3 with the following pins:								|
  | --------------------------------------------------------------------------	|
  | PC7 -> SPI3_CS | PC10 -> SPI3_SCK | PC11 -> SPI3_MISO |PC12 -> SPI3_MOSI 	|
@@ -31,12 +31,12 @@ git clone https://github.com/[YOUR_USERNAME]/mpc2515-stm32f407vg-driver.git
  | 			 	------------------------------								|
 
  ### Use CAN SPI Driver instruction
-   *1. Initialize the CAN SPI driver using: CANSPI_Initialize(uint8_t BitRate) |
+   * 1. Initialize the CAN SPI driver using: CANSPI_Initialize(uint8_t BitRate) |
        Two Bit Rate options:
        *500Kbps -> _500KBPS
        *250Kbps -> _250KBPS
        
-   *2. Enable/Disable RX pins Interrupt (on RX0B and RX1B pins)
+   * 2. Enable/Disable RX pins Interrupt (on RX0B and RX1B pins)
         Two available options:
         *Enable Interrupts on RX0B and RX1B pins  -> _Enable
         *Disable Interrupts on RX0B and RX1B pins -> _Disable
