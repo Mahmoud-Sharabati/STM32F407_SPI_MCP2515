@@ -1,4 +1,5 @@
-# This repository contains a driver for the MPC2515 CAN controller, designed to interface with the STM32f407VG microcontroller. The driver is based on the MPC2515 driver by [Daniel Rossi](https://github.com/ProjectoOfficial/STM32/tree/main/STM32_MCP2515).
+# STM32F407_SPI_MCP2515
+## This repository contains a driver for the MPC2515 CAN controller, designed to interface with the STM32f407VG microcontroller. The driver is based on the MPC2515 driver by [Daniel Rossi](https://github.com/ProjectoOfficial/STM32/tree/main/STM32_MCP2515).
 
 ## Requirements
 * A device with an STM32f407VG microcontroller.
